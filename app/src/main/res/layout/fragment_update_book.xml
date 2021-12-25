@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android=
+    "http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nestedScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_marginTop="6dp"
+            android:id="@+id/textInputEditTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/textInputEditTextAuthor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="author"
+            android:layout_marginTop="8dp"
+            android:inputType="text"
+            android:maxLines="1"
+
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/textInputEditTextyear"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="year"
+            android:maxLines="1"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/textInputEditTextcategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="category"
+            android:maxLines="1"
+            android:layout_marginTop="8dp"
+            android:textColor="@android:color/black" />
+        <EditText
+            android:id="@+id/textInputEditTextdescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="description"
+            android:layout_marginTop="8dp"
+            android:maxLines="3"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/textInputEditTextlanguage"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="language"
+            android:maxLines="1"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/textInputEditTextnumberofpages"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="number of pages"
+            android:maxLines="1"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/textInputEditTextcopiesnumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="copies number"
+             android:maxLines="1"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/textInputEditTextshelf"
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_height="wrap_content"
+            android:hint="shelf"
+
+            android:maxLines="1"
+            android:textColor="@android:color/black" />
+        <EditText
+            android:id="@+id/edDate"
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_height="wrap_content"
+            android:hint="16/01/2021"
+
+            android:maxLines="1"
+            android:textColor="@android:color/black" />
+
+
+        <CheckBox
+            android:id="@+id/checkBoxIsFava"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add to Favorite"
+            android:textColor="#000000"
+            />
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/updateBook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="#FF9900"
+            android:text="Update" />
+
+
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
